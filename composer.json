@@ -1,0 +1,24 @@
+{
+    "name": "greendrake/php-least-squares-linear-regression",
+    "type": "library",
+    "description": "Find the line that best fits given set of two-dimensional points",
+    "authors": [
+        {
+            "name": "Eugene Greendrake",
+            "email": "eugene@greendrake.info",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Greendrake\\LSLR\\": ["src/", "test/"]
+        }
+    }
+}
